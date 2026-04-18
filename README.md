@@ -73,6 +73,8 @@ time periods.
 | **Total Transactions** | 1,000,000+ rows |
 | **Number of Files** | 4 CSV files |
 
+![alt text](<Screenshots/Data source.png>)
+
 ### File 1 — transactions_data.csv (Fact Table)
 This is the main table in the dataset and the one with the most rows. It contains 
 every individual transaction record including the transaction ID, the date and time 
@@ -125,6 +127,7 @@ I downloaded all four CSV files from Kaggle. Before doing anything in Power BI
 I opened each file in Excel first just to get a feel for the structure, check 
 what columns were available, see what the data looked like, and spot any obvious 
 problems like missing values or wrong formatting.
+l cannot add the files themselves to the repository because they are very large files 
 
 ### Step 2 — Importing Data into Power BI
 I opened Power BI Desktop and used Get Data then Text/CSV to import all four 
@@ -195,6 +198,7 @@ compiled a full PDF report and uploaded everything to this GitHub repository.
 # Dashboard Features
 
 ### Page 1 — Executive Summary
+![alt text](<Screenshots/Executive Summary.png>)
 - Four KPI cards at the top showing Active Users, Total Amount, Total 
   Transactions, and Average Transaction Amount giving an immediate portfolio 
   health check
@@ -208,6 +212,7 @@ compiled a full PDF report and uploaded everything to this GitHub repository.
   that cross-filter all visuals on the page simultaneously
 
 ### Page 2 — Detailed Analysis
+![alt text](<Screenshots/Second Page.png>)
 - Scatter chart plotting Total Transactions against Credit Score coloured by 
   Age Band to show how transaction behaviour varies across customer risk profiles
 - Clustered bar chart showing Total Transactions by Time of Day and Card Type 
@@ -220,6 +225,7 @@ compiled a full PDF report and uploaded everything to this GitHub repository.
   the fastest growing geographic markets
 
 ### Page 3 — Performance and Segmentation
+![alt text](<Screenshots/Third Page.png>)
 - Bar chart comparing Total Amount by Transaction Channel showing the split 
   between Swipe and Online transactions
 - Pie chart showing Total Transactions by Income Band to understand the 
