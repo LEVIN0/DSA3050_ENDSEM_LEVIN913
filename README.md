@@ -17,7 +17,7 @@
 
 
 
-# 4. Project Overview
+# Project Overview
 
 This project is my end semester examination submission for DSA 3050A Advanced 
 Business Intelligence at USIU-Africa. The aim of the project was to build a 
@@ -40,7 +40,7 @@ measures that support business decision making across the banking portfolio.
 
 ---
 
-# 5. Problem Statement
+# Problem Statement
 
 Banks generate millions of transactions every day and the challenge is turning 
 that raw data into actionable intelligence that stakeholders can actually use to 
@@ -60,7 +60,7 @@ time periods.
 
 ---
 
-# 6. Dataset Description
+# Dataset Description
 
 | Detail | Information |
 |---|---|
@@ -105,7 +105,7 @@ readable merchant category name.
 
 ---
 
-# 7. Tools Used
+# Tools Used
 
 | Tool | Purpose |
 |---|---|
@@ -118,7 +118,7 @@ readable merchant category name.
 
 ---
 
-# 8. Steps Followed
+#  Steps Followed
 
 ### Step 1 — Data Acquisition
 I downloaded all four CSV files from Kaggle. Before doing anything in Power BI 
@@ -192,7 +192,7 @@ compiled a full PDF report and uploaded everything to this GitHub repository.
 
 ---
 
-# 9. Dashboard Features
+# Dashboard Features
 
 ### Page 1 — Executive Summary
 - Four KPI cards at the top showing Active Users, Total Amount, Total 
@@ -233,7 +233,7 @@ compiled a full PDF report and uploaded everything to this GitHub repository.
 
 ---
 
-# 10. Key DAX Measures
+#  Key DAX Measures
 
 | Measure | Formula | What It Does |
 |---|---|---|
@@ -248,7 +248,7 @@ compiled a full PDF report and uploaded everything to this GitHub repository.
 
 ---
 
-# 11. Key Insights
+# Key Insights
 
 **Insight 1 — Swipe Transactions Dominate and Create a Security Risk**
 Swipe transactions account for over 80% of the total transaction amount at 
@@ -289,7 +289,7 @@ segments eventually become less active.
 
 ---
 
-# 12. Challenges Encountered
+# Challenges Encountered
 
 
 **Challenge 1 — Currency Symbols Preventing Correct Data Types**
@@ -307,7 +307,7 @@ when I manually clicked Refresh. This made the development process much smoother
 
 ---
 
-# 13. Conclusion
+# Conclusion
 
 Overall this project was a very useful and practical experience that helped me 
 understand how the different components of a Power BI solution fit together. 
